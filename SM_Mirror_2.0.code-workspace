@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "SM_Mirror_2.0",
+			"path": "."
+		},
+		{
+			"name": "pytorch_model_2",
+			"path": "../Downloads/pytorch_model_2"
+		}
+	],
+	"settings": {}
+}

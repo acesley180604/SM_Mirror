@@ -1,0 +1,30 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.4.2
+pydantic-settings==2.0.3
+pillow==10.0.1
+aiofiles==23.2.1
+python-jose[cryptography]==3.3.0
+
+# Core AI/ML dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+diffusers>=0.21.0
+transformers>=4.33.0
+accelerate>=0.23.0
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Essential Stable-Makeup dependencies
+safetensors>=0.3.3
+huggingface-hub>=0.16.4
+scipy>=1.11.0
+tqdm>=4.65.0
+
+# Skip these for now - can be installed later if GPU memory optimization needed:
+# xformers>=0.0.20
+# controlnet-aux>=0.0.7
+# face-alignment>=1.3.5 
